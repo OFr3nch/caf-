@@ -13,6 +13,7 @@ html {
 }
 nav {
    color: #fffaf0;
+   margin-bottom: 2rem;
 }
 
 .nav-links a {
@@ -30,10 +31,12 @@ button {
    color: #fffaf0;
    padding: 0.5rem;
    border-radius: 8px;
+   border: none;
 }
 
 button:hover {
-    color: #a0522d;
+    background-color: #a0522d;
+    padding: 1rem 2rem;
 }
 
 .navbar {
@@ -63,7 +66,44 @@ button:hover {
 .Depoimentos-texto li {
     list-style: none;
 }
+.expresso {
+    background-color: #f5f5dc;
+    margin: 25px;
+    padding: 2rem 2rem;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #a0522d;
+}
 
+.bolo {
+    background-color: #f5f5dc;
+    margin: 25px;
+    padding: 2rem 2rem;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #a0522d;
+}
+
+.Ana {
+    background-color: #f5f5dc;
+    margin: 25px;
+    padding: 2rem 2rem;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #a0522d;
+}
+
+
+.Joao {
+    background-color: #f5f5dc;
+    margin: 25px;
+    padding: 2rem 2rem;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #a0522d;
+}
 footer {
     background-color: #eee;
+    padding: 2rem 4rem;
+    justify-content: space-between;
 }
